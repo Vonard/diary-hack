@@ -5,11 +5,12 @@
 ## Как запустить
 1. Разверните электронный дневник по README [репозитория](https://github.com/devmanorg/e-diary/tree/master).
 2. Положите файл scripts.py рядом с manage.py.
-3. Запустите: `
+3. Запустите: 
+```
     python manage.py shell
     import scripts
     scripts.run_all("Иванов Иван", "Математика")
-`
+```
 
 ## Функции
 
